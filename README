@@ -1,0 +1,3 @@
+These are the dotfiles used in GB development. To use them clone this repo into your scratch and run:
+
+ln -sf <dir_to_this_file>/.* /home/$USER/

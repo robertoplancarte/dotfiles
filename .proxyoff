@@ -1,0 +1,4 @@
+unsetenv http_proxy 
+unsetenv https_proxy
+unsetenv ftp_proxy
+unsetenv ftps_proxy
