@@ -1,5 +1,2 @@
 stty -ixon
-set prompt="[%{\033[0;32m%}%n%{\033[1;34m%}@%m %{\033[0;37m%}%~]$ %{\033[0m%} "
-setenv NLS_LANG American_America.UTF8
-alias proxyon  source ~/.proxyon
-alias proxyoff source ~/.proxyoff
+export NLS_LAN=sAmerican_America.UTF8

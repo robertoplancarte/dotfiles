@@ -16,7 +16,7 @@ else
   filetype plugin indent on
   let g:rehash256 = 1
   hi normal ctermfg=none ctermbg=none
-  colorscheme molokai 
+  colorscheme monokai 
 
 
 
