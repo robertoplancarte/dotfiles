@@ -1,9 +1,11 @@
 #[http]
 #  proxy = %http_proxy%
 [user]
-	name = roberto.plancarte
-	email = roberto.plancarte@oracle.com
+	name = Roberto Plancarte
+	email = robertoplancarte@gmail.com
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [url "https://"]
 	insteadOf = git://
+[push]
+	default = simple
