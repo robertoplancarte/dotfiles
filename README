@@ -1,6 +1,6 @@
 These are my dotfiles. To use them clone this repo and run:
 
-    ln -sf <dir_to_this_file>/.* /home/$USER/
+    ln -sf <path_to_this_file>/.* /home/$USER/
 
 To get all the vim submodules clone with the --recursive flag or run this after cloning:
 
@@ -9,5 +9,5 @@ To get all the vim submodules clone with the --recursive flag or run this after 
 You will also want to have a full color console so run: 
 
     sudo apt-get install ncurses-term
-    echo export TERM=xterm-256color >> ~/.bashrc
+    echo source <path_to_.bash_profile> >> ~/.bashrc
     source ~/.bashrc

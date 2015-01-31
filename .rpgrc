@@ -1,2 +1,0 @@
-stty -ixon
-export NLS_LAN=sAmerican_America.UTF8
