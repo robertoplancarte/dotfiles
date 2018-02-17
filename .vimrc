@@ -71,6 +71,7 @@ else
   :nmap <silent> <C-k> :wincmd k<CR>
   :nmap <silent> <C-l> :wincmd l<CR>
 
+  :set fillchars=vert:│  
 
   " Collapse comments
   " set fdm=expr

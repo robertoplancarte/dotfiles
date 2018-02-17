@@ -113,5 +113,8 @@ if ! shopt -oq posix; then
   fi
 fi
 export TERM=screen-256color
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="/home/rplancar/Downloads/node-v8.4.0-linux-x64/bin:$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PS1="\[\e[00;37m\][\[\e[0m\]\[\e[00;32m\]\u\[\e[0m\]\[\e[00;37m\]@\[\e[0m\]\[\e[01;34m\]\h\[\e[0m\]\[\e[00;37m\]] \w \\$ \[\e[0m\]"
+
+# added by Anaconda3 4.4.0 installer
+export PATH="/home/rplancar/anaconda3/bin:$PATH"
